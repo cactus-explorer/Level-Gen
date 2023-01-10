@@ -72,8 +72,7 @@ public class MakeHallwaysAndRooms : MonoBehaviour
     public bool MakeNumRooms(int numRooms, bool sideRoom = false, string typeToMake = null)
     {   
         Debug.Log(numRooms + makeType);
-        // A couple of these must be instantiated in the method itself, otherwise it BREAKS. I'm too lazy to figure out which of
-        // these three it is, so all shall remain
+        // A couple of these must be instantiated in the method itself, otherwise it BREAKS.
         GameObject newRoom = null;
         goodInTheLongTerm = false;
         GameObject roomCover = null;
